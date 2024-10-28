@@ -2578,7 +2578,7 @@
 				(pin unspecified line
 					(at 19.05 -15.24 180)
 					(length 3.81)
-					(name "VCC1..2"
+					(name "VCC1.2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2670,7 +2670,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" " RES 22 OHM 5% 1/10W 0603"
+			(property "Description" "RES 22 OHM 5% 1/10W 0603"
 				(at 20.32 -59.69 0)
 				(effects
 					(font
@@ -5709,6 +5709,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Value" "PCIEx4 EDGE CONNECTOR"
