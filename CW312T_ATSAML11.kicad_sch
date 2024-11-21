@@ -15,16 +15,14 @@
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
-			(property "Value" "CE"
+			(property "Value" "CE Symbol"
 				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Footprint" "Silkscrren_Symbols:CE-Logo_8.5x6mm_SilkScreen"
@@ -65,16 +63,14 @@
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
-			(property "Value" "Pb_Free"
+			(property "Value" "Pb_Free Symbol"
 				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Footprint" "Silkscrren_Symbols:Pb_Free_8.0x8.0mm_SilkScreen"
@@ -163,16 +159,14 @@
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
-			(property "Value" "WEEE"
+			(property "Value" "WEEE SYMBOL"
 				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Footprint" "Silkscrren_Symbols:WEEE-Logo_5.6x8mm_SilkScreen"
@@ -5419,70 +5413,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Silkscreen_Symbols:Pb_Free")
-		(at -19.05 198.12 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2f5fe825-47b3-4faf-810a-b2a63f738461")
-		(property "Reference" "PCB2"
-			(at -19.05 198.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "Pb_Free"
-			(at -19.05 198.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Silkscrren_Symbols:Pb_Free_8.0x8.0mm_SilkScreen"
-			(at -19.05 198.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at -19.05 198.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at -19.05 198.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project ""
-				(path "/497ddeb2-6500-4436-ac31-e3cfdb79cc3f"
-					(reference "PCB2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3V3")
 		(at 134.62 128.27 0)
 		(unit 1)
@@ -6077,72 +6007,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Silkscreen_Symbols:UKCA")
-		(at -16.51 193.04 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "82f0aaf4-3e5b-4384-9173-11f964e96743")
-		(property "Reference" "PCB4"
-			(at -13.97 191.7699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Value" "UKCA symbol"
-			(at -13.97 193.0399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Silkscrren_Symbols:UKCA-Logo_8x8mm_SilkScreen"
-			(at -16.51 193.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at -16.51 193.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at -16.51 193.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project ""
-				(path "/497ddeb2-6500-4436-ac31-e3cfdb79cc3f"
-					(reference "PCB4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 189.23 53.34 0)
 		(unit 1)
@@ -6464,6 +6328,70 @@
 		)
 	)
 	(symbol
+		(lib_id "Silkscreen_Symbols:UKCA")
+		(at -36.83 171.45 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9d6ebab0-5e1d-4f7d-893d-08d009583f07")
+		(property "Reference" "PCB3"
+			(at -34.29 170.1799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "UKCA symbol"
+			(at -34.29 172.7199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Silkscrren_Symbols:UKCA-Logo_8x8mm_SilkScreen"
+			(at -36.83 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at -36.83 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at -36.83 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project ""
+				(path "/497ddeb2-6500-4436-ac31-e3cfdb79cc3f"
+					(reference "PCB3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3V3")
 		(at 74.93 76.2 0)
 		(unit 1)
@@ -6596,35 +6524,35 @@
 		)
 	)
 	(symbol
-		(lib_id "Silkscreen_Symbols:CE_Free")
-		(at -25.4 199.39 0)
+		(lib_id "Silkscreen_Symbols:Pb_Free")
+		(at -36.83 166.37 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "a2303be9-09e8-4b7e-80fd-b124ced18065")
-		(property "Reference" "PCB1"
-			(at -27.94 193.04 0)
+		(uuid "aeab4999-fe23-4967-863d-03c7a0a0d34e")
+		(property "Reference" "PCB2"
+			(at -34.29 165.0999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
+				(justify left)
 			)
 		)
-		(property "Value" "CE"
-			(at -25.4 199.39 0)
+		(property "Value" "Pb_Free Symbol"
+			(at -34.29 167.6399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
+				(justify left)
 			)
 		)
-		(property "Footprint" "Silkscrren_Symbols:CE-Logo_8.5x6mm_SilkScreen"
-			(at -25.4 199.39 0)
+		(property "Footprint" "Silkscrren_Symbols:Pb_Free_8.0x8.0mm_SilkScreen"
+			(at -36.83 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6633,7 +6561,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at -25.4 199.39 0)
+			(at -36.83 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6642,7 +6570,7 @@
 			)
 		)
 		(property "Description" ""
-			(at -25.4 199.39 0)
+			(at -36.83 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6653,7 +6581,7 @@
 		(instances
 			(project ""
 				(path "/497ddeb2-6500-4436-ac31-e3cfdb79cc3f"
-					(reference "PCB1")
+					(reference "PCB2")
 					(unit 1)
 				)
 			)
@@ -6853,70 +6781,6 @@
 			(project "CW312T_ATSAML11"
 				(path "/497ddeb2-6500-4436-ac31-e3cfdb79cc3f"
 					(reference "C6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Silkscreen_Symbols:WEEE")
-		(at -19.05 196.85 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c0bd4dd4-7b18-4623-9dc7-d6bbae32761c")
-		(property "Reference" "PCB3"
-			(at -20.32 192.405 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "WEEE"
-			(at -19.05 196.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Silkscrren_Symbols:WEEE-Logo_5.6x8mm_SilkScreen"
-			(at -19.05 196.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at -19.05 196.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at -19.05 196.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project ""
-				(path "/497ddeb2-6500-4436-ac31-e3cfdb79cc3f"
-					(reference "PCB3")
 					(unit 1)
 				)
 			)
@@ -7246,6 +7110,133 @@
 			(project "CW312T_ATSAML11"
 				(path "/497ddeb2-6500-4436-ac31-e3cfdb79cc3f"
 					(reference "#PWR014")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Silkscreen_Symbols:CE_Free")
+		(at -36.83 160.02 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "e6fa256e-8c91-4692-904c-4e94ae55112b")
+		(property "Reference" "PCB1"
+			(at -34.29 160.274 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "CE Symbol"
+			(at -34.29 162.814 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Silkscrren_Symbols:CE-Logo_8.5x6mm_SilkScreen"
+			(at -36.83 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at -36.83 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at -36.83 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project ""
+				(path "/497ddeb2-6500-4436-ac31-e3cfdb79cc3f"
+					(reference "PCB1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Silkscreen_Symbols:WEEE")
+		(at -36.83 176.53 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ec1850e7-9517-4167-a895-832418f476fd")
+		(property "Reference" "PCB4"
+			(at -34.29 175.2599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "WEEE SYMBOL"
+			(at -34.29 177.7999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Silkscrren_Symbols:WEEE-Logo_5.6x8mm_SilkScreen"
+			(at -36.83 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at -36.83 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at -36.83 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project ""
+				(path "/497ddeb2-6500-4436-ac31-e3cfdb79cc3f"
+					(reference "PCB4")
 					(unit 1)
 				)
 			)
