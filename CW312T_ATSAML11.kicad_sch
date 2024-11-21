@@ -1249,6 +1249,7 @@
 			)
 		)
 		(symbol "tutorial_2_library:CAP_100n_50V_0603"
+			(pin_numbers hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1404,7 +1405,7 @@
 							)
 						)
 					)
-					(number ""
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1422,7 +1423,7 @@
 							)
 						)
 					)
-					(number ""
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1433,6 +1434,7 @@
 			)
 		)
 		(symbol "tutorial_2_library:CAP_2u2_16V_0603"
+			(pin_numbers hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1588,7 +1590,7 @@
 							)
 						)
 					)
-					(number ""
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1606,7 +1608,7 @@
 							)
 						)
 					)
-					(number ""
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2830,6 +2832,7 @@
 			)
 		)
 		(symbol "tutorial_2_library:RES_22R_0603"
+			(pin_numbers hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -3021,7 +3024,7 @@
 							)
 						)
 					)
-					(number ""
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3039,7 +3042,7 @@
 							)
 						)
 					)
-					(number ""
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4731,7 +4734,6 @@
 		(uuid "f91d0a80-d1ee-4114-a861-f0c823601d2f")
 	)
 	(symbol
-		(lib_name "tutorial_2_library:CAP_100n_50V_0603")
 		(lib_id "tutorial_2_library:CAP_100n_50V_0603")
 		(at 181.61 140.97 90)
 		(mirror x)
@@ -4849,10 +4851,10 @@
 				(hide yes)
 			)
 		)
-		(pin ""
+		(pin "2"
 			(uuid "d8c2838a-9e71-41b6-a5b5-435d7ad5f46c")
 		)
-		(pin ""
+		(pin "1"
 			(uuid "71251665-d8f4-4259-b3b5-43e310199e91")
 		)
 		(instances
@@ -4931,7 +4933,6 @@
 		)
 	)
 	(symbol
-		(lib_name "tutorial_2_library:CAP_100n_50V_0603")
 		(lib_id "tutorial_2_library:CAP_100n_50V_0603")
 		(at 35.56 35.56 90)
 		(mirror x)
@@ -5049,10 +5050,10 @@
 				(hide yes)
 			)
 		)
-		(pin ""
+		(pin "1"
 			(uuid "f0cda5d8-89b9-49bd-be47-44c3c6916077")
 		)
-		(pin ""
+		(pin "2"
 			(uuid "af0ee3d0-84db-426f-a8ef-7a50125653f4")
 		)
 		(instances
@@ -5548,7 +5549,6 @@
 		)
 	)
 	(symbol
-		(lib_name "tutorial_2_library:RES_22R_0603")
 		(lib_id "tutorial_2_library:RES_22R_0603")
 		(at 134.62 180.34 0)
 		(mirror x)
@@ -5664,10 +5664,10 @@
 				(hide yes)
 			)
 		)
-		(pin ""
+		(pin "1"
 			(uuid "a3525381-2091-4a26-9a8f-873902227764")
 		)
-		(pin ""
+		(pin "2"
 			(uuid "c2a8c107-cc40-482e-9dc9-6ab85fa90e7a")
 		)
 		(instances
@@ -5944,7 +5944,6 @@
 		)
 	)
 	(symbol
-		(lib_name "tutorial_2_library:CAP_2u2_16V_0603")
 		(lib_id "tutorial_2_library:CAP_2u2_16V_0603")
 		(at 189.23 40.64 270)
 		(unit 1)
@@ -6062,10 +6061,10 @@
 				(hide yes)
 			)
 		)
-		(pin ""
+		(pin "1"
 			(uuid "b1b49e88-854a-4a94-bc0d-c3f32b0f997f")
 		)
-		(pin ""
+		(pin "2"
 			(uuid "8d980724-2753-4095-876c-b5fe41636657")
 		)
 		(instances
@@ -6727,7 +6726,6 @@
 		)
 	)
 	(symbol
-		(lib_name "tutorial_2_library:CAP_2u2_16V_0603")
 		(lib_id "tutorial_2_library:CAP_2u2_16V_0603")
 		(at 190.5 140.97 270)
 		(unit 1)
@@ -6845,10 +6843,10 @@
 				(hide yes)
 			)
 		)
-		(pin ""
+		(pin "1"
 			(uuid "40e95f93-6a66-4bd2-be1d-2f3e7a5cf849")
 		)
-		(pin ""
+		(pin "2"
 			(uuid "cd3ab7a3-7bf5-40d4-a9c2-b2ca0c0dcf55")
 		)
 		(instances
@@ -6925,7 +6923,6 @@
 		)
 	)
 	(symbol
-		(lib_name "tutorial_2_library:CAP_2u2_16V_0603")
 		(lib_id "tutorial_2_library:CAP_2u2_16V_0603")
 		(at 44.45 35.56 270)
 		(unit 1)
@@ -7043,10 +7040,10 @@
 				(hide yes)
 			)
 		)
-		(pin ""
+		(pin "2"
 			(uuid "6e99a491-a33d-40e4-b305-d2af2bbb6f93")
 		)
-		(pin ""
+		(pin "1"
 			(uuid "738acfe1-155b-4820-866b-bf69420f29fb")
 		)
 		(instances
@@ -7059,7 +7056,6 @@
 		)
 	)
 	(symbol
-		(lib_name "tutorial_2_library:RES_22R_0603")
 		(lib_id "tutorial_2_library:RES_22R_0603")
 		(at 139.7 91.44 0)
 		(unit 1)
@@ -7174,10 +7170,10 @@
 				(hide yes)
 			)
 		)
-		(pin ""
+		(pin "1"
 			(uuid "6a7fe17d-e593-4a21-a140-9b69c0a24cb6")
 		)
-		(pin ""
+		(pin "2"
 			(uuid "fefbc02b-5bbc-4a06-96b0-80e11be70c57")
 		)
 		(instances
@@ -7322,7 +7318,6 @@
 		)
 	)
 	(symbol
-		(lib_name "tutorial_2_library:CAP_100n_50V_0603")
 		(lib_id "tutorial_2_library:CAP_100n_50V_0603")
 		(at 180.34 40.64 90)
 		(mirror x)
@@ -7440,10 +7435,10 @@
 				(hide yes)
 			)
 		)
-		(pin ""
+		(pin "2"
 			(uuid "45e95464-a027-4b9b-b666-9ae3d9de143b")
 		)
-		(pin ""
+		(pin "1"
 			(uuid "6fef50b2-4f98-4115-8835-0a54b3f0d199")
 		)
 		(instances
@@ -7456,7 +7451,6 @@
 		)
 	)
 	(symbol
-		(lib_name "tutorial_2_library:RES_22R_0603")
 		(lib_id "tutorial_2_library:RES_22R_0603")
 		(at 147.32 134.62 0)
 		(unit 1)
@@ -7571,10 +7565,10 @@
 				(hide yes)
 			)
 		)
-		(pin ""
+		(pin "2"
 			(uuid "1ff88fe1-e78b-4328-b41e-0711e64cd009")
 		)
-		(pin ""
+		(pin "1"
 			(uuid "c0ac2d0a-3242-46c3-919a-efb6c2fd85a6")
 		)
 		(instances
@@ -7587,7 +7581,6 @@
 		)
 	)
 	(symbol
-		(lib_name "tutorial_2_library:CAP_100n_50V_0603")
 		(lib_id "tutorial_2_library:CAP_100n_50V_0603")
 		(at 125.73 187.96 270)
 		(unit 1)
@@ -7704,10 +7697,10 @@
 				(hide yes)
 			)
 		)
-		(pin ""
+		(pin "1"
 			(uuid "8650d11e-1f85-4f9a-8be4-bf9eb8b4b471")
 		)
-		(pin ""
+		(pin "2"
 			(uuid "8794d583-f587-45fa-a0bf-f3a2b16abc59")
 		)
 		(instances

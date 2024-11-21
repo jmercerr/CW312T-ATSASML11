@@ -425,6 +425,8 @@
 			(size 0.8 0.95)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(roundrect_rratio 0.25)
+			(net 5 "/VDDCORE")
+			(pintype "passive")
 			(uuid "ade8a04a-a013-4fc9-bd24-e8aa32644780")
 		)
 		(pad "2" smd roundrect
@@ -432,6 +434,8 @@
 			(size 0.8 0.95)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(roundrect_rratio 0.25)
+			(net 3 "/SHUNTH")
+			(pintype "passive")
 			(uuid "8b4ed7a7-095d-4fbc-b898-6eea2c65a59b")
 		)
 		(model "${KICAD8_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.wrl"
@@ -724,6 +728,8 @@
 			(size 0.9 0.95)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(roundrect_rratio 0.25)
+			(net 3 "/SHUNTH")
+			(pintype "passive")
 			(uuid "6b532899-d414-49aa-87a7-3bc9aebe00f4")
 		)
 		(pad "2" smd roundrect
@@ -731,6 +737,8 @@
 			(size 0.9 0.95)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(roundrect_rratio 0.25)
+			(net 1 "GND")
+			(pintype "passive")
 			(uuid "bc0e39d1-1534-4498-b4f1-244bad09cae4")
 		)
 		(model "${KICAD8_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.wrl"
@@ -1023,6 +1031,8 @@
 			(size 0.9 0.95)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(roundrect_rratio 0.25)
+			(net 2 "+3V3")
+			(pintype "passive")
 			(uuid "92fedd5e-bf59-4cc5-bffc-0823c8a0cf02")
 		)
 		(pad "2" smd roundrect
@@ -1030,6 +1040,8 @@
 			(size 0.9 0.95)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(roundrect_rratio 0.25)
+			(net 1 "GND")
+			(pintype "passive")
 			(uuid "14102ab5-c977-4338-a8af-1185dde613f9")
 		)
 		(model "${KICAD8_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.wrl"
@@ -1671,6 +1683,8 @@
 			(size 0.8 0.95)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(roundrect_rratio 0.25)
+			(net 6 "Net-(P1-CLKOUT)")
+			(pintype "passive")
 			(uuid "76a5c4f7-d2c4-4089-9f05-2b1a8f5c5eb0")
 		)
 		(pad "2" smd roundrect
@@ -1678,6 +1692,8 @@
 			(size 0.8 0.95)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(roundrect_rratio 0.25)
+			(net 7 "/XIN")
+			(pintype "passive")
 			(uuid "f84a6a1e-2423-499d-af5e-05790bd2f3ce")
 		)
 		(model "${KICAD8_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.wrl"
@@ -1970,6 +1986,8 @@
 			(size 0.9 0.95)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(roundrect_rratio 0.25)
+			(net 2 "+3V3")
+			(pintype "passive")
 			(uuid "5b1fcc64-979b-4521-802d-7cf8e2a7ad07")
 		)
 		(pad "2" smd roundrect
@@ -1977,6 +1995,8 @@
 			(size 0.9 0.95)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(roundrect_rratio 0.25)
+			(net 1 "GND")
+			(pintype "passive")
 			(uuid "31ec8b58-3aab-410f-909e-7cf4fea5c4cd")
 		)
 		(model "${KICAD8_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.wrl"
@@ -2269,6 +2289,8 @@
 			(size 0.9 0.95)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(roundrect_rratio 0.25)
+			(net 4 "Net-(U1-~{RESET})")
+			(pintype "passive")
 			(uuid "1846fa87-3809-4ebb-8572-cfbdfc0e3dca")
 		)
 		(pad "2" smd roundrect
@@ -2276,6 +2298,8 @@
 			(size 0.9 0.95)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(roundrect_rratio 0.25)
+			(net 1 "GND")
+			(pintype "passive")
 			(uuid "7ee6a38d-9cc6-43cb-8dc0-d2f3ba9c5ae7")
 		)
 		(model "${KICAD8_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.wrl"
@@ -2779,6 +2803,8 @@
 			(size 0.9 0.95)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(roundrect_rratio 0.25)
+			(net 3 "/SHUNTH")
+			(pintype "passive")
 			(uuid "f62304c2-d5d1-45a0-8b71-88a8657f0bdb")
 		)
 		(pad "2" smd roundrect
@@ -2786,6 +2812,8 @@
 			(size 0.9 0.95)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(roundrect_rratio 0.25)
+			(net 1 "GND")
+			(pintype "passive")
 			(uuid "e4667832-42de-457e-ad6c-c5010c91f396")
 		)
 		(model "${KICAD8_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.wrl"
@@ -4135,6 +4163,8 @@
 			(size 0.9 0.95)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(roundrect_rratio 0.25)
+			(net 2 "+3V3")
+			(pintype "passive")
 			(uuid "702490df-eabd-4a47-a8f5-9b0d674b4bfe")
 		)
 		(pad "2" smd roundrect
@@ -4142,6 +4172,8 @@
 			(size 0.9 0.95)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(roundrect_rratio 0.25)
+			(net 1 "GND")
+			(pintype "passive")
 			(uuid "f074b327-a237-4261-b439-0990c559bce4")
 		)
 		(model "${KICAD8_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.wrl"
@@ -4662,6 +4694,8 @@
 			(size 0.8 0.95)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(roundrect_rratio 0.25)
+			(net 4 "Net-(U1-~{RESET})")
+			(pintype "passive")
 			(uuid "e0e524dd-fb66-4f37-8d82-dd2307595a3f")
 		)
 		(pad "2" smd roundrect
@@ -4669,6 +4703,8 @@
 			(size 0.8 0.95)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(roundrect_rratio 0.25)
+			(net 8 "/RST")
+			(pintype "passive")
 			(uuid "e8e5cfeb-64bd-4aed-9fa4-b8e7a786cc95")
 		)
 		(model "${KICAD8_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.wrl"
@@ -4961,6 +4997,8 @@
 			(size 0.9 0.95)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(roundrect_rratio 0.25)
+			(net 2 "+3V3")
+			(pintype "passive")
 			(uuid "8da86f8f-d191-4982-bc2f-b1fb0910919f")
 		)
 		(pad "2" smd roundrect
@@ -4968,6 +5006,8 @@
 			(size 0.9 0.95)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(roundrect_rratio 0.25)
+			(net 1 "GND")
+			(pintype "passive")
 			(uuid "8f6c800a-f75c-4fe7-9ba5-0ac2559df61d")
 		)
 		(model "${KICAD8_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.wrl"
