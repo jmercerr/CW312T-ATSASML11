@@ -105,6 +105,54 @@
 				)
 			)
 		)
+		(symbol "Silkscreen_Symbols:UKCA"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "PCB"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "UKCA symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Silkscrren_Symbols:UKCA-Logo_8x8mm_SilkScreen"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+		)
 		(symbol "Silkscreen_Symbols:WEEE"
 			(exclude_from_sim no)
 			(in_bom no)
@@ -1356,7 +1404,7 @@
 							)
 						)
 					)
-					(number "1"
+					(number ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1374,7 +1422,7 @@
 							)
 						)
 					)
-					(number "2"
+					(number ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1397,7 +1445,7 @@
 				)
 			)
 			(property "Value" "CAP_2u2_16V_0603"
-				(at 11.43 -71.12 0)
+				(at 7.62 -19.05 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1406,7 +1454,7 @@
 				)
 			)
 			(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-				(at 0 -67.31 0)
+				(at -3.81 -15.24 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1415,7 +1463,7 @@
 				)
 			)
 			(property "Datasheet" "https://content.kemet.com/datasheets/KEM_C1006_X5R_SMD.pdf"
-				(at 30.48 -62.23 0)
+				(at 8.89 -10.16 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1424,7 +1472,7 @@
 				)
 			)
 			(property "Description" "CAP CER 2.2UF 16V X5R 0603"
-				(at 20.32 -59.69 0)
+				(at -1.27 -7.62 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1441,7 +1489,7 @@
 				)
 			)
 			(property "Manufacturer" "KEMET"
-				(at -8.89 -71.12 0)
+				(at -12.7 -19.05 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1450,7 +1498,7 @@
 				)
 			)
 			(property "Manufacturer Part Number" "C0603C225K4PAC7867"
-				(at -10.16 -64.77 0)
+				(at -3.81 -12.7 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1459,7 +1507,7 @@
 				)
 			)
 			(property "Supplier 1" "DigiKey"
-				(at -15.24 -73.66 0)
+				(at -19.05 -21.59 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1468,7 +1516,7 @@
 				)
 			)
 			(property "Supplier 1 Part Number" "399-C0603C225K4PAC7867CT-ND"
-				(at 12.7 -73.66 0)
+				(at 8.89 -21.59 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1540,7 +1588,7 @@
 							)
 						)
 					)
-					(number "1"
+					(number ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1558,7 +1606,7 @@
 							)
 						)
 					)
-					(number "2"
+					(number ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2973,7 +3021,7 @@
 							)
 						)
 					)
-					(number "1"
+					(number ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2991,7 +3039,7 @@
 							)
 						)
 					)
-					(number "2"
+					(number ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4683,6 +4731,7 @@
 		(uuid "f91d0a80-d1ee-4114-a861-f0c823601d2f")
 	)
 	(symbol
+		(lib_name "tutorial_2_library:CAP_100n_50V_0603")
 		(lib_id "tutorial_2_library:CAP_100n_50V_0603")
 		(at 181.61 140.97 90)
 		(mirror x)
@@ -4800,10 +4849,10 @@
 				(hide yes)
 			)
 		)
-		(pin "2"
+		(pin ""
 			(uuid "d8c2838a-9e71-41b6-a5b5-435d7ad5f46c")
 		)
-		(pin "1"
+		(pin ""
 			(uuid "71251665-d8f4-4259-b3b5-43e310199e91")
 		)
 		(instances
@@ -4882,6 +4931,7 @@
 		)
 	)
 	(symbol
+		(lib_name "tutorial_2_library:CAP_100n_50V_0603")
 		(lib_id "tutorial_2_library:CAP_100n_50V_0603")
 		(at 35.56 35.56 90)
 		(mirror x)
@@ -4999,10 +5049,10 @@
 				(hide yes)
 			)
 		)
-		(pin "2"
+		(pin ""
 			(uuid "f0cda5d8-89b9-49bd-be47-44c3c6916077")
 		)
-		(pin "1"
+		(pin ""
 			(uuid "af0ee3d0-84db-426f-a8ef-7a50125653f4")
 		)
 		(instances
@@ -5498,6 +5548,7 @@
 		)
 	)
 	(symbol
+		(lib_name "tutorial_2_library:RES_22R_0603")
 		(lib_id "tutorial_2_library:RES_22R_0603")
 		(at 134.62 180.34 0)
 		(mirror x)
@@ -5613,10 +5664,10 @@
 				(hide yes)
 			)
 		)
-		(pin "1"
+		(pin ""
 			(uuid "a3525381-2091-4a26-9a8f-873902227764")
 		)
-		(pin "2"
+		(pin ""
 			(uuid "c2a8c107-cc40-482e-9dc9-6ab85fa90e7a")
 		)
 		(instances
@@ -5893,6 +5944,7 @@
 		)
 	)
 	(symbol
+		(lib_name "tutorial_2_library:CAP_2u2_16V_0603")
 		(lib_id "tutorial_2_library:CAP_2u2_16V_0603")
 		(at 189.23 40.64 270)
 		(unit 1)
@@ -6010,16 +6062,82 @@
 				(hide yes)
 			)
 		)
-		(pin "2"
+		(pin ""
 			(uuid "b1b49e88-854a-4a94-bc0d-c3f32b0f997f")
 		)
-		(pin "1"
+		(pin ""
 			(uuid "8d980724-2753-4095-876c-b5fe41636657")
 		)
 		(instances
 			(project "CW312T_ATSAML11"
 				(path "/497ddeb2-6500-4436-ac31-e3cfdb79cc3f"
 					(reference "C4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Silkscreen_Symbols:UKCA")
+		(at -16.51 193.04 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "82f0aaf4-3e5b-4384-9173-11f964e96743")
+		(property "Reference" "PCB4"
+			(at -13.97 191.7699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "UKCA symbol"
+			(at -13.97 193.0399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Silkscrren_Symbols:UKCA-Logo_8x8mm_SilkScreen"
+			(at -16.51 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at -16.51 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at -16.51 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project ""
+				(path "/497ddeb2-6500-4436-ac31-e3cfdb79cc3f"
+					(reference "PCB4")
 					(unit 1)
 				)
 			)
@@ -6609,6 +6727,7 @@
 		)
 	)
 	(symbol
+		(lib_name "tutorial_2_library:CAP_2u2_16V_0603")
 		(lib_id "tutorial_2_library:CAP_2u2_16V_0603")
 		(at 190.5 140.97 270)
 		(unit 1)
@@ -6726,10 +6845,10 @@
 				(hide yes)
 			)
 		)
-		(pin "2"
+		(pin ""
 			(uuid "40e95f93-6a66-4bd2-be1d-2f3e7a5cf849")
 		)
-		(pin "1"
+		(pin ""
 			(uuid "cd3ab7a3-7bf5-40d4-a9c2-b2ca0c0dcf55")
 		)
 		(instances
@@ -6806,6 +6925,7 @@
 		)
 	)
 	(symbol
+		(lib_name "tutorial_2_library:CAP_2u2_16V_0603")
 		(lib_id "tutorial_2_library:CAP_2u2_16V_0603")
 		(at 44.45 35.56 270)
 		(unit 1)
@@ -6923,10 +7043,10 @@
 				(hide yes)
 			)
 		)
-		(pin "2"
+		(pin ""
 			(uuid "6e99a491-a33d-40e4-b305-d2af2bbb6f93")
 		)
-		(pin "1"
+		(pin ""
 			(uuid "738acfe1-155b-4820-866b-bf69420f29fb")
 		)
 		(instances
@@ -6939,6 +7059,7 @@
 		)
 	)
 	(symbol
+		(lib_name "tutorial_2_library:RES_22R_0603")
 		(lib_id "tutorial_2_library:RES_22R_0603")
 		(at 139.7 91.44 0)
 		(unit 1)
@@ -7053,10 +7174,10 @@
 				(hide yes)
 			)
 		)
-		(pin "1"
+		(pin ""
 			(uuid "6a7fe17d-e593-4a21-a140-9b69c0a24cb6")
 		)
-		(pin "2"
+		(pin ""
 			(uuid "fefbc02b-5bbc-4a06-96b0-80e11be70c57")
 		)
 		(instances
@@ -7201,6 +7322,7 @@
 		)
 	)
 	(symbol
+		(lib_name "tutorial_2_library:CAP_100n_50V_0603")
 		(lib_id "tutorial_2_library:CAP_100n_50V_0603")
 		(at 180.34 40.64 90)
 		(mirror x)
@@ -7318,10 +7440,10 @@
 				(hide yes)
 			)
 		)
-		(pin "2"
+		(pin ""
 			(uuid "45e95464-a027-4b9b-b666-9ae3d9de143b")
 		)
-		(pin "1"
+		(pin ""
 			(uuid "6fef50b2-4f98-4115-8835-0a54b3f0d199")
 		)
 		(instances
@@ -7334,6 +7456,7 @@
 		)
 	)
 	(symbol
+		(lib_name "tutorial_2_library:RES_22R_0603")
 		(lib_id "tutorial_2_library:RES_22R_0603")
 		(at 147.32 134.62 0)
 		(unit 1)
@@ -7448,10 +7571,10 @@
 				(hide yes)
 			)
 		)
-		(pin "1"
+		(pin ""
 			(uuid "1ff88fe1-e78b-4328-b41e-0711e64cd009")
 		)
-		(pin "2"
+		(pin ""
 			(uuid "c0ac2d0a-3242-46c3-919a-efb6c2fd85a6")
 		)
 		(instances
@@ -7464,6 +7587,7 @@
 		)
 	)
 	(symbol
+		(lib_name "tutorial_2_library:CAP_100n_50V_0603")
 		(lib_id "tutorial_2_library:CAP_100n_50V_0603")
 		(at 125.73 187.96 270)
 		(unit 1)
@@ -7580,10 +7704,10 @@
 				(hide yes)
 			)
 		)
-		(pin "2"
+		(pin ""
 			(uuid "8650d11e-1f85-4f9a-8be4-bf9eb8b4b471")
 		)
-		(pin "1"
+		(pin ""
 			(uuid "8794d583-f587-45fa-a0bf-f3a2b16abc59")
 		)
 		(instances
